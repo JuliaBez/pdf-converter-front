@@ -107,12 +107,12 @@
         <h1>Conversor de PDF para HTML</h1>
         <p>Envie o seu arquivo PDF e converta para HTML</p>
         
-        <form id="uploadForm" action=" https://dockerbackend-1030453643764.us-central1.run.app/upload" method="post" enctype="multipart/form-data">
+        <form id="uploadForm" action="http://34.133.167.192:8080/upload" method="post" enctype="multipart/form-data">
             <input type="file" name="file" accept=".pdf" required>
-            <div class="loading-message" id="loadingMessage">Quais paginas devem ser editaveis?! </div>
-            <input type="text" name="editable_pages" placeholder="Ex: 1,2,5-10" required> 
+            <input type="text" name="editable_pages" placeholder="Quais páginas são editáveis? Ex: 1,2,5-10" required> 
             <button type="submit">Enviar PDF</button>
         </form>
+        
         
 
 
